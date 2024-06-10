@@ -52,7 +52,7 @@
                         <li><a href="businessconsultancy.jsp">Tư Vấn Doanh Nghiệp</a></li>
                     </ul>
                 </li>
-                <li class="dropdown navtext"><a href="#"><span>Bản Quyền</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <li class="dropdown navtext"><a href="#"><span>Phần mềm</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                     <ul>
                         <li class="dropdown"><a href="#"><span>Phần Mềm NX</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                             <ul>
