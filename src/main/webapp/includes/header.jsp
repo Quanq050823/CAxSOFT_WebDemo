@@ -10,7 +10,7 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="assets/img/Logo_CaxSoft.png" rel="icon">
+    <link href="assets/img/Logo_CS.png" rel="icon">
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Fonts -->
@@ -36,7 +36,7 @@
     <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
 
         <a href="index.jsp" class="logo d-flex align-items-center me-auto me-xl-0">
-            <img src="assets/img/CS%20logo-02.png" alt="">
+            <img src="assets/img/CS logo1-04.png" alt="">
         </a>
 
         <nav id="navmenu" class="navmenu">
