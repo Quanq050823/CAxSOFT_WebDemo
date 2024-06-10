@@ -8,7 +8,7 @@
                     <a href="index.html" class="logo d-flex align-items-center">
                         <span class="sitename">CAxSOFT</span>
                     </a>
-                    <div class="footer-contact pt-3">
+                    <div class="footer-contact pt-3" style="padding-top: 0rem!important">
                         <p>230 Man Thiện, Phường Tăng Nhơn Phú A</p>
                         <p>Thành Phố Thủ Đức</p>
                         <p class="mt-3"><strong>Phone:</strong> <span>+84 999 888 777</span></p>
