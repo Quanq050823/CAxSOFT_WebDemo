@@ -27,6 +27,7 @@
 
     <!-- Main CSS File -->
     <link href="assets/css/main.css" rel="stylesheet">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 
 </head>
 
@@ -36,7 +37,7 @@
     <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
 
         <a href="index.jsp" class="logo d-flex align-items-center me-auto me-xl-0">
-            <img src="assets/img/CS logo1-04.png" alt="">
+            <img src="assets/img/CAxSOFT_Logo.png" alt="">
         </a>
 
         <nav id="navmenu" class="navmenu">
@@ -54,15 +55,14 @@
                 </li>
                 <li class="dropdown navtext"><a href="#"><span>Phần mềm</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                     <ul>
-                        <li class="dropdown"><a href="#"><span>Phần Mềm NX</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                            <ul>
-                                <li><a href="NXCAD.jsp">NX CAD</a></li>
-                                <li><a href="NXCAM.jsp">NX CAM</a></li>
-                            </ul>
+                        <li ><a href="NXCAM.jsp"><span>Phần Mềm NX</span></a>
                         </li>
-                        <li><a href="#">Fussion 360</a></li>
-                        <li><a href="#">Progedcad</a></li>
-                        <li><a href="#">Solidcam</a></li>
+                        <li><a >Solid Edge</a></li>
+                        <li><a >Mastercam</a></li>
+                        <li><a >SolidWorks</a></li>
+                        <li><a >Fussion 360</a></li>
+                        <li><a href="#">ProgeCAD</a></li>
+                        <li><a >Solidcam</a></li>
                     </ul>
                 </li>
             </ul>

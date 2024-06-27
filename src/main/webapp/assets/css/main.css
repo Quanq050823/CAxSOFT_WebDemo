@@ -688,7 +688,6 @@ section,
 .section {
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 60px 0;
   scroll-margin-top: 100px;
   overflow: clip;
 }
@@ -705,7 +704,7 @@ section,
 --------------------------------------------------------------*/
 .section-title {
   text-align: left;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
   position: relative;
 }
 
@@ -858,8 +857,9 @@ section,
 /*--------------------------------------------------------------
 # Featured Services Section
 --------------------------------------------------------------*/
+
 .featured-services .service-item {
-  padding: 50px 30px;
+  padding: 30px 30px;
   transition: all ease-in-out 0.4s;
   height: 100%;
 }
@@ -1456,6 +1456,15 @@ section,
 # Testimonials Section
 --------------------------------------------------------------*/
 .testimonials {
+  --default-color: #ffffff;
+  --background-color: #022430;
+  --heading-color: #ffffff;
+  padding: 80px 0;
+  height: 80vh;
+  position: relative;
+}
+
+.testimonials2 {
   --default-color: #ffffff;
   --background-color: #022430;
   --heading-color: #ffffff;
@@ -3078,4 +3087,227 @@ h1 {
 
 .navtext {
   font-size:60px;
+}
+
+.vidcontainer {
+  width: 100%;
+  height: 90vh;
+  background-color: rgb(4 69 74 / 52%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vidcontent {
+  text-align: center;
+}
+
+.vidcontainer video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.vidcontainer .content h1{
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 50px;
+}
+.vidcontainer .content h2{
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.background-clip {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+/*--------------------------------------------------------------
+# Peparing Section
+--------------------------------------------------------------*/
+.preparing-page
+{
+  background-color: #ffffff;
+  padding-bottom: 20%;
+}
+/*--------------------------------------------------------------
+# NXCAM Section
+--------------------------------------------------------------*/
+.box
+{
+  width: 350px;
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.box h1, h5 {
+  color: #000000;
+}
+
+.img-fluid{
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.pic {
+  height: 250px;
+  width: 250px;
+}
+
+.group {
+  align-items: center;
+  justify-content: center;
+}
+/*--------------------------------------------------------------
+# MAIL BOX
+--------------------------------------------------------------*/
+* { box-sizing:border-box; }
+.mailbox{
+  font-family:'Roboto';
+  display:block;
+  background:#215961;
+}
+.mailbox .group {
+  position:relative;
+  margin-bottom:10px;
+}
+.mailbox input{
+  padding:10px 10px 10px 5px;
+  display:block;
+  width:300px;
+  border:none;
+  border-bottom:1px solid #757575;
+  background-color: #215961;
+  color: #ffffff;
+  font-size:14px;
+  font-weight:normal;
+}
+.mailbox input:focus{ outline:none; }
+/* LABEL ======================================= */
+.mailbox label{
+  color: #cecece;
+  font-size:14px;
+  font-weight:normal;
+  position:absolute;
+  pointer-events:none;
+  left:5px;
+  top:10px;
+  transition:0.2s ease all;
+  -moz-transition:0.2s ease all;
+  -webkit-transition:0.2s ease all;
+}
+
+/* active state */
+.mailbox input:focus ~ label, input:valid ~ label {
+  /*left:-50px;*/
+  display: none;
+  font-size:14px;
+  color: #ffffff;
+}
+/* BOTTOM BARS ================================= */
+.mailbox .bar 	{ position:relative; display:block; width:300px; }
+.mailbox .bar:before, .bar:after 	{
+  content:'';
+  height:2px;
+  width:0;
+  bottom:1px;
+  position:absolute;
+  background:#0ea2bd;
+  transition:0.2s ease all;
+  -moz-transition:0.2s ease all;
+  -webkit-transition:0.2s ease all;
+}
+.mailbox .bar:before {
+  left:50%;
+}
+.mailbox .bar:after {
+  right:50%;
+}
+
+/* active state */
+.mailbox input:focus ~ .bar:before, input:focus ~ .bar:after {
+  width:50%;
+}
+
+/* HIGHLIGHTER ================================== */
+.mailbox .highlight {
+  position:absolute;
+  height:60%;
+  width:100px;
+  top:25%;
+  left:0;
+  pointer-events:none;
+  opacity:0.5;
+}
+
+/* active state */
+.mailbox input:focus ~ .highlight {
+  -webkit-animation:inputHighlighter 0.3s ease;
+  -moz-animation:inputHighlighter 0.3s ease;
+  animation:inputHighlighter 0.3s ease;
+}
+
+.mailbox button {
+  font-size: 16px;
+  justify-content: center;
+}
+
+.mailbox .group button {
+  margin: 0;
+  width: 72px;
+  height: 72px;
+  background: var(--accent-color);
+  color: var(--contrast-color);
+  border: 6px solid var(--contrast-color);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-size: 28px;
+  transition: ease-in-out 0.3s;
+  position: absolute;
+  top: -36px;
+  left: calc(50% - 36px);
+}
+.mailbox .group button {
+  background: var(--contrast-color);
+  border: 2px solid var(--accent-color);
+}
+
+.mailbox .group button i {
+  color: var(--accent-color);
+}
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+  from { background:#5264AE; }
+  to 	{ width:0; background:transparent; }
+}
+@-moz-keyframes inputHighlighter {
+  from { background:#5264AE; }
+  to 	{ width:0; background:transparent; }
+}
+@keyframes inputHighlighter {
+  from { background:#5264AE; }
+  to 	{ width:0; background:transparent; }
+}
+
+.mailbox button,
+.mailbox button:focus {
+  color: var(--contrast-color);
+  background: var(--accent-color);
+  font-size: 14px;
+  padding: 8px 26px;
+  margin: 0;
+  border-radius: 20px;
+  transition: 0.3s;
+  outline: none;
+}
+
+.mailbox button:hover,
+.mailbox button:focus:hover {
+  color: var(--contrast-color);
+  background: color-mix(in srgb, var(--accent-color), transparent 15%);
 }
